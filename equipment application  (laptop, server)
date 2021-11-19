@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T04:06:50.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="sXyP0QEVjTFcBnB2PjuZ" version="15.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T04:08:02.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Au6rAK0OCuMIF-L7NjGQ" version="15.8.0" type="github">
   <diagram id="jCbDCDmn8osFOOhUOXOI" name="Page-1">
-    <mxGraphModel dx="920" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5586" dy="4214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,17 +91,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SXbTUxOk8Czf9HYbNRdg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.164;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;strokeColor=#FF0000;dashed=1;fillColor=#f8cecc;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-21" target="SXbTUxOk8Czf9HYbNRdg-28">
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#000000;strokeColor=#FF0000;dashed=1;fillColor=#f8cecc;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-21" target="SXbTUxOk8Czf9HYbNRdg-28">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="235" as="targetPoint" />
             <Array as="points">
               <mxPoint x="870" y="180" />
-              <mxPoint x="1159" y="180" />
+              <mxPoint x="1220" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-45" value="Monthly/&lt;br&gt;urgent manually ETL when API format changed (ex. carrefour)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;" vertex="1" connectable="0" parent="SXbTUxOk8Czf9HYbNRdg-43">
           <mxGeometry x="-0.0267" y="-2" relative="1" as="geometry">
-            <mxPoint x="48" y="-22" as="offset" />
+            <mxPoint x="18" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-21" value="Retailer API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
