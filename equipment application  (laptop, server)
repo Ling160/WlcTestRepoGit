@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T03:50:06.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gT-5VuiFW0tu8s0MMeLT" version="15.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T04:06:50.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="sXyP0QEVjTFcBnB2PjuZ" version="15.8.0" type="github">
   <diagram id="jCbDCDmn8osFOOhUOXOI" name="Page-1">
-    <mxGraphModel dx="1303" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,6 +20,11 @@
         </mxCell>
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-6" target="SXbTUxOk8Czf9HYbNRdg-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-42" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px&quot;&gt;daily/monthily&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontColor=#3333FF;" vertex="1" connectable="0" parent="SXbTUxOk8Czf9HYbNRdg-10">
+          <mxGeometry x="-0.253" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-6" value="Retailer API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
@@ -72,12 +77,31 @@
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-19" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 30px ; background-color: rgb(255 , 255 , 51)&quot;&gt;3M internal server&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;br&gt;&lt;/div&gt;ETL(source from: &lt;span style=&quot;background-color: rgb(213 , 232 , 212) ; font-size: 13px&quot;&gt;GitHub/ Retailer API&lt;/span&gt;)&lt;br style=&quot;font-size: 13px&quot;&gt;Python&amp;nbsp;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;run scripts&lt;/span&gt;&lt;br&gt;Power BI query&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;Database folder (incl. all past data)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="240" width="270" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="SXbTUxOk8Czf9HYbNRdg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-21" target="SXbTUxOk8Czf9HYbNRdg-19">
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="170" />
+              <mxPoint x="820" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-44" value="Daily" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="SXbTUxOk8Czf9HYbNRdg-27">
+          <mxGeometry x="-0.1538" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.164;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;strokeColor=#FF0000;dashed=1;fillColor=#f8cecc;" edge="1" parent="1" source="SXbTUxOk8Czf9HYbNRdg-21" target="SXbTUxOk8Czf9HYbNRdg-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="843" y="175" />
-              <mxPoint x="843" y="175" />
+              <mxPoint x="870" y="180" />
+              <mxPoint x="1159" y="180" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXbTUxOk8Czf9HYbNRdg-45" value="Monthly/&lt;br&gt;urgent manually ETL when API format changed (ex. carrefour)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FF0000;" vertex="1" connectable="0" parent="SXbTUxOk8Czf9HYbNRdg-43">
+          <mxGeometry x="-0.0267" y="-2" relative="1" as="geometry">
+            <mxPoint x="48" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SXbTUxOk8Czf9HYbNRdg-21" value="Retailer API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
